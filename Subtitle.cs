@@ -82,7 +82,7 @@ namespace BatchSubtitleSync
             {
                 for (int i = former.Count - 1; i >= 0; i--)
                 {
-                    former[i] = former[i].StartTime < threshold ? null : former[i];
+                    former[i] = former[i].StartTime < threshold ? former[i] : null;
                 }
                 for (int i = later.Count - 1; i >= 0; i--)
                 {

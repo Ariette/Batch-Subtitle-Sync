@@ -998,7 +998,7 @@ namespace BatchSubtitleSync
             this.Controls.Add(this.MainLayout);
             this.MinimumSize = new System.Drawing.Size(440, 700);
             this.Name = "MainWindow";
-            this.Text = "Batch Subtitle Sync v1.0";
+            this.Text = "Batch Subtitle Sync v1.01";
             this.MainLayout.ResumeLayout(false);
             this.MainLayout.PerformLayout();
             this.saveGroup.ResumeLayout(false);
